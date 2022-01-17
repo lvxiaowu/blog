@@ -1,0 +1,19 @@
+{
+  "name": "vuepress-template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs",
+    "deploy": "bash deploy.sh"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "gh-pages": "^3.2.3",
+    "vuepress": "^1.5.0",
+    "vuepress-theme-reco": "^1.4.5"
+  }
+}
