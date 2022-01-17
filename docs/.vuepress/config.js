@@ -1,6 +1,7 @@
 const guidePageList = require('../.vuepress/routerLayout');
 
 module.exports = {
+  base: '/blog/',
   title: '小武的博客',
   head: [
     // 注入到当前页面的 HTML <head> 中的标签
